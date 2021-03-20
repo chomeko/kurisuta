@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="sass/reset.css">
-  <link rel="stylesheet" href="sass/style.sass">
+  <link rel="stylesheet" href="sass/style.css">
   <title>クリスタカンプ</title>
 </head>
 <body>
   <!-- header -->
   <header class="header">
     <h1 class="header-logo">
-      <img src="./img/site-logo-1.png" alt="サイトのロゴ">
+      <img src="./img/site-logo.svg" alt="サイトのロゴ">
     </h1>
-    <nav class="header-nav">
+    <!-- <nav class="header-nav">
       <ul>
         <li class="nav-item"><img src="" alt="ナビゲーションのロゴ"></li>
         <li class="nav-item">ABOUT US</li>
@@ -30,30 +30,32 @@
         <span class="burger-bottom"></span>
       </span>
       <span class="menu">MENU</span>
-    </button>
+    </button> -->
   </header>
   <!-- //header -->
   <main>
     <!-- mv -->
-    <div class="mv-image">
-      <div class="mv-warapper">
-        <p class="mv-toptext">デザインで人を笑顔にする会社</p>
-        <p class="mv-midtext">DIGSMILE INC.</p>
-        <p class="mv-bottomtext">
-          DESIGN<br>
-          FOR<br>
-          SMILE.
-        </p>
+    <div class="mv">
+      <div class="mv-image">
+        <div class="mv-warapper">
+          <p class="mv-toptext">デザインで人を笑顔にする会社</p>
+          <p class="mv-midtext">DIGSMILE INC.</p>
+          <p class="mv-bottomtext">
+            DESIGN<br>
+            FOR<br>
+            SMILE.
+          </p>
+        </div>
       </div>
     </div>
     <!-- //mv -->
 
     <!-- about -->
-    <section class="about">
+    <section class="about inner">
       <div class="about-warapper">
-        <h2 class="about-title">ABOUT US</h2>
-        <p>DIGSMILEは、デザインで人を笑顔にする会社。<br>
-          なんでもない日常に少しのワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。
+        <h2 class="section-title">ABOUT US</h2>
+        <p class="about-text">DIGSMILEは、デザインで人を笑顔にする会社。<br>
+          なんでもない日常に少しのワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。<br>
           DIGSMILEの社名にはそんな想いが込められています。
         </p>
         <a class="btn" href="#">READ MORE</a>
@@ -64,9 +66,9 @@
     <div class="bg-gray">
       <!-- works -->
       <section class="works">
-        <h2 class="works-tile">WORKS</h2>
+        <h2 class="section-title">WORKS</h2>
         <div class="works-warapper">
-          <img src="img/daria-shevtsova-k_RYBedEvDw-unsplash-2.png" alt="上空から見た人">
+          <img src="img/works-img.jpg" alt="上空から見た人">
           <p class="works-text">DIGSMILEの制作実績を紹介します。</p>
           <a class="btn" href="#">READ MORE</a>
         </div>
@@ -75,9 +77,9 @@
 
       <!-- culture -->
       <section class="culture">
-        <h2 class="culture-tile">CULTURE</h2>
+        <h2 class="section-tilte">CULTURE</h2>
         <div class="culture-warapper">
-          <img src="./img/culture-img.png" alt="夕日を背景にジャンプした写真">
+          <img src="./img/culture-img.jpg" alt="夕日を背景にジャンプした写真">
           <p class="culture-text">DIGSMILEの社内文化について紹介します。</p>
           <a class="btn" href="#">READ MORE</a>
         </div>
@@ -87,7 +89,7 @@
 
     <!-- topics -->
     <section class="topics">
-      <h2 class="topics-tile">LATEST TOPICS</h2>
+      <h2 class="topics-title">LATEST TOPICS</h2>
       <div class="topics-warapper">
         <ul>
           <li class="topics-item">
@@ -117,14 +119,14 @@
     <!-- contact -->
     <section class="contact">
       <div class="contact-warapper">
-        <h2 class="contact-time">CONTACT</h2>
+        <h2 class="section-title">CONTACT</h2>
         <p class="contact-text">
           制作の依頼、取材の依頼、IRや採用についての連絡・お問い合わせはコンタクトページから承っております。<br>
           まずはお気軽にご連絡ください。担当者から改めて返信いたします。
         </p>
         <a class="btn" href="#">READ MORE</a>
       </div>
-      <div class="contact-image"><img src="./img/recruit-img.png" alt="集合写真"></div>
+      <div class="contact-image"><img src="./img/contact-img.jpg" alt="集合写真"></div>
     </section>
     <!-- //contact-->
   </main>

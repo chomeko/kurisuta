@@ -1,0 +1,7 @@
+.header-logo{
+  /* width: 260px; */
+  position: fixed;
+  top: 10px;
+  left: 58px;
+  z-index: 1;
+}
