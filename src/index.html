@@ -8,15 +8,12 @@
   <title>コーディング練習</title>
 </head>
 <body>
-  <header class="header-container">
-    <div class="header-warapper">
-      <h1 class="header-logo">
-        <img src="./img/site-logo.svg" alt="ロゴ">
-      </h1>
+  <header class="header">
+    <div class="header-container">
       <!-- hamburger-->
-      <div class="hambueger-container">
+      <div class="hamburger-container">
         <!-- togle-->
-        <div class="togle-warapper">
+        <div class="toggle-box">
           <span></span>
           <span></span>
           <span></span>
@@ -29,14 +26,18 @@
   </header>
   <main>
     <!-- ファーストビュー-->
-    <div class="fv-container">
+    <div class="fv">
+      <h1 class="logo">
+        <img src="./img/site-logo.svg" alt="ロゴ">
+      </h1>
       <div class="fv-image">
-        <img src="./img/kv-img.jpg" alt="赤ちゃんを抱っこする女性">
+        <!-- <img src="./img/kv-img.jpg" alt="赤ちゃんを抱っこする女性"> -->
       </div>
-      <div class="catch-warapper">
-        <p>デザインで人を笑顔にする会社</p>
-        <p>DIGSMILE INC.</p>
-        <p>DESIGN,<br>
+      <div class="catch-box">
+        <p class="catch-top">デザインで人を笑顔にする会社</p>
+        <p class="catch-mid">DIGSMILE INC.</p>
+        <p class="catch-footer">
+          DESIGN<br>
           FOR<br>
           SMILE.
         </p>
@@ -46,77 +47,77 @@
     <!-- //ファーストビュー-->
 
     <!-- about -->
-    <section class="about-container">
-      <div class="about-bg-image">
-        <div class="about-warapper">
-          <h2 class="title">ABOUT US</h2>
-          <p>
-            DIGSMILEは、デザインで人を笑顔にする会社。<br>
-            なんでもない日常に少しのワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。<br>
-            DIGSMILEの社名にはそんな想いが込められています。
-          </p>
-          <a href="#" class="linkbtn">READ MORE</a>
+    <section class="about">
+      <div class="inner">
+        <div class="about-bg-image">
+          <div class="about-box">
+            <h2 class="title">ABOUT US</h2>
+            <p>
+              DIGSMILEは、デザインで人を笑顔にする会社。<br>
+              なんでもない日常に少しのワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。<br>
+              DIGSMILEの社名にはそんな想いが込められています。
+            </p>
+            <a href="#" class="linkbtn">READ MORE</a>
+          </div>
         </div>
-      </div>
+    </div>
     </section>
     <!-- //about -->
 
-    <div class="content-container">
-      <!-- works -->
-      <section class="works-warapper">
-        <h2 class="title">WORKS</h2>
-        <div class="works-image">
-          <img src="./img/works-img.jpg" alt="上空から見た椅子に座る人々">
-        </div>
-        <p>DIGSMILEの制作実績を紹介します。</p>
-        <a href="#" class="linkbtn">READ MORE</a>
-      </section>
-      <!-- works -->
+      <div class="content-bg">
+        <div class="inner flex">
+          <!-- works -->
+          <section class="works">
+            <h2 class="title">WORKS</h2>
+            <div class="works-image">
+              <img src="./img/works-img.jpg" alt="上空から見た椅子に座る人々">
+            </div>
+            <p>DIGSMILEの制作実績を紹介します。</p>
+            <a href="#" class="linkbtn">READ MORE</a>
+          </section>
+          <!-- works -->
 
-      <!-- culture -->
-      <section class="culture-warapper">
-        <h2 class="title">CULTURE</h2>
-        <div class="culture-image">
-          <img src="./img/culture-img.jpg" alt="夕日を背景にジャンプしている６人の男女">
+          <!-- culture -->
+          <section class="culture">
+            <h2 class="title">CULTURE</h2>
+            <div class="culture-image">
+              <img src="./img/culture-img.jpg" alt="夕日を背景にジャンプしている６人の男女">
+            </div>
+            <p>DIGSMILEの社内文化について紹介します。</p>
+            <a href="#" class="linkbtn">READ MORE</a>
+          </section>
+          <!-- //culture -->
         </div>
-        <p>DIGSMILEの社内文化について紹介します。</p>
-        <a href="#" class="linkbtn">READ MORE</a>
-      </section>
-      <!-- //culture -->
-    </div>
+      </div>
 
     <!-- topics -->
-    <article class="topics-container">
-      <div class="topics-warapper">
-        <h2 class="title">LATEST TOPICS</h2>
-        <dl>
-          <div>
+    <article class="topics">
+      <div class="topics-container">
+        <div class="inner">
+          <h2 class="title">LATEST TOPICS</h2>
+          <dl>
             <a href="#">
               <dt data-time="2020-02-01">2020.02.01</dt>
               <dd>イベントレポート「VRクリエイター座談会 〜5Gの次に来るもの〜」</dd>
             </a>
-          </div>
-          <div>
             <a href="#">
               <dt data-time="2020-01-018">2020.01.18</dt>
               <dd>プレスリリースのお知らせ DIGGIN’ RECORDS</dd>
             </a>
-          </div>
-          <div>
             <a href="#">
               <dt data-time="2020-01-01">2020.01.01</dt>
               <dd>新年明けましておめでとうございます</dd>
             </a>
-          </div>
-          <a href="#" class="linkbtn">READ MORE</a>
-        </dl>
+            <a href="#" class="linkbtn">READ MORE</a>
+          </dl>
+        </div>
       </div>
     </article>
     <!-- //topics -->
 
     <!-- contact -->
-    <section class="contact-container">
-      <div class="contact-warapper">
+    <section class="contact">
+      <div class="contact-container">
         <h2 class="title">CONTACT</h2>
         <p>制作の依頼、取材の依頼、IRや採用についての連絡・お問い合わせはコンタクトページから承っております。<br>
           まずはお気軽にご連絡ください。担当者から改めて返信いたします。
