@@ -1,27 +1,34 @@
 /* fv */
 .fv {
-  position: relative;
   height: 74rem;
+}
+
+.fv::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #222;
+  width: 50%;
+  height: 74rem;
+  z-index: -1;
 }
 .fv-image {
   width: 110rem;
   height: 64rem;
   background-image: url(../img/kv-img.jpg);
-  position: absolute;
-  z-index: -1;
-}
-
-.logo {
-  position: absolute;
-  margin: 3rem 0rem 0rem 5.8rem;
+  background-size: cover;
+  background-position: center 0;
+  position: relative;
 }
 
 .catch-box {
-  width: 29.2rem;
-  color: #ffffff;
   position: absolute;
-  top: 16.1rem;
-  right: 19.4rem;
+  top: 50%;
+  right: 0;
+  transform: translate(50%,-50%);
+  color: #fff;
 }
 .catch-top {
   font-size: 2rem;
@@ -37,36 +44,34 @@
   line-height: 88px;
 }
 
-.fv-bg-black {
-  background: #222;
-  width: 78rem;
-  height: 74rem;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -2;
-}
-
 /* about */
 .about {
-  margin-top: 12rem;
+  padding-top: 12rem;
   position: relative;
 }
+
+.about::after {
+  position: absolute;
+  background: #F0F0F0;
+  content: "";
+  bottom: 0;
+  width: 100%;
+  height: 10rem;
+  z-index: -1;
+}
+
 .about-bg-image {
   background-image: url(../img/about-img.jpg);
   background-size: cover;
   background-position: center;
   width: 110rem;
   height: 60.7rem;
-  position: relative;
+  padding: 110px 0 110px 50px;
 }
 
 .about-box {
-  position: absolute;
-  top: 11rem;
-  left: 5rem;
-  width: 59rem;
-  background-color: #FFF;
+  max-width: 59rem;
+  background-color:rgba(255,255,255,.95);
   padding: 5rem 3rem;
 }
 
@@ -78,16 +83,8 @@
 .content-bg {
   background: #F0F0F0;
   width: 100%;
-  height: 77.1rem;
-  padding: 18rem 0 6rem 0;
-  position: relative;
-  top: -10rem;
-  z-index: -1;
-}
-/* 横並び */
-.flex {
-  display: flex;
-  justify-content: space-between;
+  height: 67.1rem;
+  padding: 8rem 0 6rem 0;
 }
 
 /* works */
@@ -96,16 +93,16 @@
   width: 52rem;
 }
 
-.works p,
-.culture p {
-  font-family: "YuGothic", "Yu Gothic","游ゴシック", "游ゴシック体", sans-serif;
-  margin-top: 3rem;
-}
-
 .works-image,
 .culture-image {
   width: 52rem;
   height: 35rem;
+}
+
+.works p,
+.culture p {
+  font-family: "YuGothic", "Yu Gothic","游ゴシック", "游ゴシック体", sans-serif;
+  margin-top: 3rem;
 }
 
 /* topics */
@@ -114,7 +111,7 @@
 }
 
 dl {
-  width: 70rem;
+  max-width: 70rem;
   margin: 0 0 0 auto;
 }
 
@@ -128,7 +125,8 @@ dl dt {
   /* XDのAVに数字/100で計算してemにする */
   letter-spacing: 0.15em;
   font-weight: bold;
-  line-height: 32px;
+  line-height: 13px;
+  margin-top: 3rem;
 }
 
 dl dd {
@@ -136,7 +134,30 @@ dl dd {
   font-size: 1.4rem;
   line-height: 24px;
   border-bottom: 1px solid #DDDDDD;
+  margin-top: 1.2rem;
 }
+
+/* contact */
+.contact {
+  background:  #F0F0F0;
+  padding-bottom: 12rem;
+}
+
+.contact-box {
+  padding-top: 13.2rem;
+}
+
+.contact p {
+  line-height: 2;
+  width: 44rem;
+}
+
+.contact-image {
+  width: 58rem;
+  height: 39rem;
+  padding-top: 6rem;
+}
+
 
 
 

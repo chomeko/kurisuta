@@ -9,40 +9,46 @@
 </head>
 <body>
   <header class="header">
-    <div class="header-container">
-      <!-- hamburger-->
-      <div class="hamburger-container">
-        <!-- togle-->
-        <div class="toggle-box">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <!-- //togle-->
-        <p class="menu">MENU</p>
-      </div>
-      <!-- //hamburger-->
-    </div>
+    <h1 class="logo">
+      <img src="./img/site-logo.svg" alt="ロゴ">
+    </h1>
+    <!-- toggle -->
+    <button class="toggle-btn">
+      <span class="bars">
+        <span class="bar bar-top"></span>
+        <span class="bar bar-mid"></span>
+        <span class="bar bar-bottom"></span>
+      </span>
+      <span class="menu">MENU</span>
+    </button>
+    <!-- //toggle-->
+    <span class="toggle-bg"></span>
+    <!-- ナビゲーション -->
+    <nav class="header-nav">
+      <ul class="nav-list">
+        <li class="nav-icon"><img src="./img/simbol-logo.svg" alt="シンボルロゴ"></li>
+        <li class="nav-item"><a href="">ABOUT US</a></li>
+        <li class="nav-item"><a href="">WORKS</a></li>
+        <li class="nav-item"><a href="">CULTURE</a></li>
+        <li class="nav-item"><a href="">TOPICS</a></li>
+        <li class="nav-item"><a href="">CONTACT</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <!-- ファーストビュー-->
     <div class="fv">
-      <h1 class="logo">
-        <img src="./img/site-logo.svg" alt="ロゴ">
-      </h1>
       <div class="fv-image">
-        <!-- <img src="./img/kv-img.jpg" alt="赤ちゃんを抱っこする女性"> -->
+        <div class="catch-box">
+          <p class="catch-top">デザインで人を笑顔にする会社</p>
+          <p class="catch-mid">DIGSMILE INC.</p>
+          <p class="catch-footer">
+            DESIGN<br>
+            FOR<br>
+            SMILE.
+          </p>
+        </div>
       </div>
-      <div class="catch-box">
-        <p class="catch-top">デザインで人を笑顔にする会社</p>
-        <p class="catch-mid">DIGSMILE INC.</p>
-        <p class="catch-footer">
-          DESIGN<br>
-          FOR<br>
-          SMILE.
-        </p>
-      </div>
-      <div class="fv-bg-black"></div>
     </div>
     <!-- //ファーストビュー-->
 
@@ -57,38 +63,38 @@
               なんでもない日常に少しのワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。<br>
               DIGSMILEの社名にはそんな想いが込められています。
             </p>
-            <a href="#" class="linkbtn">READ MORE</a>
+            <a href="./about.html" class="linkbtn">READ MORE</a>
           </div>
         </div>
     </div>
     </section>
     <!-- //about -->
 
-      <div class="content-bg">
-        <div class="inner flex">
-          <!-- works -->
-          <section class="works">
-            <h2 class="title">WORKS</h2>
-            <div class="works-image">
-              <img src="./img/works-img.jpg" alt="上空から見た椅子に座る人々">
-            </div>
-            <p>DIGSMILEの制作実績を紹介します。</p>
-            <a href="#" class="linkbtn">READ MORE</a>
-          </section>
-          <!-- works -->
+    <div class="content-bg">
+      <div class="inner flex-box">
+        <!-- works -->
+        <section class="works">
+          <h2 class="title">WORKS</h2>
+          <div class="works-image">
+            <img src="./img/works-img.jpg" alt="上空から見た椅子に座る人々">
+          </div>
+          <p>DIGSMILEの制作実績を紹介します。</p>
+          <a href="#" class="linkbtn">READ MORE</a>
+        </section>
+        <!-- works -->
 
-          <!-- culture -->
-          <section class="culture">
-            <h2 class="title">CULTURE</h2>
-            <div class="culture-image">
-              <img src="./img/culture-img.jpg" alt="夕日を背景にジャンプしている６人の男女">
-            </div>
-            <p>DIGSMILEの社内文化について紹介します。</p>
-            <a href="#" class="linkbtn">READ MORE</a>
-          </section>
-          <!-- //culture -->
-        </div>
+        <!-- culture -->
+        <section class="culture">
+          <h2 class="title">CULTURE</h2>
+          <div class="culture-image">
+            <img src="./img/culture-img.jpg" alt="夕日を背景にジャンプしている６人の男女">
+          </div>
+          <p>DIGSMILEの社内文化について紹介します。</p>
+          <a href="#" class="linkbtn">READ MORE</a>
+        </section>
+        <!-- //culture -->
       </div>
+    </div>
 
     <!-- topics -->
     <article class="topics">
@@ -117,20 +123,22 @@
 
     <!-- contact -->
     <section class="contact">
-      <div class="contact-container">
-        <h2 class="title">CONTACT</h2>
-        <p>制作の依頼、取材の依頼、IRや採用についての連絡・お問い合わせはコンタクトページから承っております。<br>
-          まずはお気軽にご連絡ください。担当者から改めて返信いたします。
-        </p>
-        <a href="#" class="linkbtn">READ MORE</a>
-      </div>
-      <div class="contact-image">
-        <img src="./img/contact-img.jpg" alt="７人の男女の集合写真">
+      <div class="inner flex-box">
+        <div class="contact-box">
+          <h2 class="title">CONTACT</h2>
+          <p>制作の依頼、取材の依頼、IRや採用についての連絡・お問い合わせはコンタクトページから承っております。<br>
+            まずはお気軽にご連絡ください。担当者から改めて返信いたします。
+          </p>
+          <a href="#" class="linkbtn">READ MORE</a>
+        </div>
+        <div class="contact-image">
+          <img src="./img/contact-img.jpg" alt="７人の男女の集合写真">
+        </div>
       </div>
     </section>
     <!-- //contact -->
   </main>
-  <footer class="footer-container">
+  <footer class="footer">
     <div class="copy">
       <small>&copy;2018 DIGSMILE INC.</small>
     </div>

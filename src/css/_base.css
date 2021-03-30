@@ -16,9 +16,19 @@ img {
   width: 100%;
 }
 
+ul {
+list-style: none;
+}
+
 .inner {
   max-width: 1100px;
   margin: auto;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .title {
