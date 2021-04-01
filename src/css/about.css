@@ -37,7 +37,7 @@
 }
  /* vision */
 .vision {
-  padding: 19.7rem 0 12rem 0;
+  padding-top: 19.7rem;
 }
 
 .vision-box {
@@ -55,5 +55,82 @@
   font-family: "Noto Sans JP", sans-serif;
   line-height: 2;
 }
+
+/* message */
+.message {
+  padding-top: 12rem;
+  position: relative;
+}
+
+.message-image {
+  width: 42rem;
+  position: absolute;
+  top: 120px;
+  left: 170px;
+}
+
+.message-container {
+  background: #F0F0F0;
+  width: 77rem;
+  padding: 12rem 0rem 9rem 0rem;
+  margin: 14.4rem 0 0 auto;
+}
+
+.message-box {
+  max-width: 40rem;
+  margin: auto;
+}
+
+.message-box p {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 2;
+}
+
+.message-box h2 {
+  letter-spacing: 0.068em;
+}
+
+/* company */
+.company {
+  padding-top: 12rem;
+}
+
+.company h2 {
+  letter-spacing: 0.068em;
+}
+
+.company-list {
+  border-top: 1px solid #333;
+  color: #333333;
+  font-family: "YuGothic", "Yu Gothic","游ゴシック", "游ゴシック体", sans-serif;
+}
+
+.company-list > div {
+  margin: 0 0 0 auto;
+  display: flex;
+  border-bottom: 1px solid #333;
+  padding: 2rem 0;
+  max-width: 80rem;
+}
+
+.company-list dt {
+  font-weight: bold;
+  flex-basis: 142px;
+}
+
+.company-map {
+  padding: 4rem 0 12rem 0;
+}
+
+.company-map iframe {
+  width: 100%;
+}
+
+
+
+
+
+
+
 
 
