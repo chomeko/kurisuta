@@ -1,0 +1,58 @@
+.contact-fv {
+  min-height: 45.1rem;
+}
+
+.contact-fv::after {
+  content: "";
+  width: 78rem;
+  height: 45.1rem;
+  background-color: #222;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.contact-fv-image {
+  background-image: url(../img/heading-img_contact.jpg);
+  background-position: center 0;
+  background-size: cover;
+  width: 110rem;
+  height: 38.7rem;
+  color: #fff;
+  position: relative;
+}
+
+.contact-fv-box {
+  position: absolute;
+  top: 62%;
+  right: 0;
+  transform: translate(50%, -62%);
+}
+
+.contact-fv-title{
+  font-size: 7.2rem;
+  font-weight: bold;
+  letter-spacing: 0.063em;
+  line-height: 86px;
+}
+
+.contact-fv-box span{
+  font-size: 2rem;
+  display: block;
+}
+
+/* form */
+.form {
+  max-width: 70rem;
+  margin: auto;
+  padding-top: 12rem;
+}
+
+label {
+  padding-top: 4rem;
+}
+
+
+
+
